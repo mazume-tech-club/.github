@@ -21,7 +21,7 @@ jobs:
           filename: profile/metrics.languages.svg
           output_action: commit
           committer_branch: main
-          commit_message: "chore: update language metrics [skip ci]"
+          committer_message: "chore: update language metrics [skip ci]"
           repositories_forks: no
           plugin_languages: yes
           plugin_languages_sections: most-used

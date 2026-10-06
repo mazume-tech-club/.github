@@ -16,10 +16,10 @@ repos=$(gh repo list "$ORG" --visibility public --source --limit 200 --json name
 
 for r in $repos; do
   stats=""
-  for _ in 1 2 3 4 5; do # 集計中は空レスポンス(202)が返るので再試行
+  for _ in $(seq 1 10); do # 集計中は空レスポンス(202)が返るので再試行
     stats=$(gh api "repos/$ORG/$r/stats/contributors" 2>/dev/null || true)
     [ -n "$stats" ] && break
-    sleep 5
+    sleep 6
   done
   [ -z "$stats" ] && continue
   read -r c a d < <(echo "$stats" | jq -r '[.[].weeks[]] | "\(map(.c)|add // 0) \(map(.a)|add // 0) \(map(.d)|add // 0)"')
