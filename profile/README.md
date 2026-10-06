@@ -24,7 +24,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cloudflare,ts,rust,nodejs,wasm,github,githubactions,vscode&perline=8" alt="stack" />
+<img src="https://skillicons.dev/icons?i=cloudflare,ts,rust,python,cs,nodejs,wasm,git,github,githubactions,claude,vscode&perline=6" alt="stack" />
 
 <br/><br/>
 
@@ -33,9 +33,45 @@
 ![D1 / R2 / KV](https://img.shields.io/badge/D1%20%2F%20R2%20%2F%20KV-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
 ![Cargo](https://img.shields.io/badge/Cargo-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
 
 </div>
+
+## Activity
+
+<div align="center">
+
+![repos](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmazume-tech-club%2F.github%2Fmain%2Fprofile%2Fstats%2Frepos.json&style=for-the-badge)
+![commits](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmazume-tech-club%2F.github%2Fmain%2Fprofile%2Fstats%2Fcommits.json&style=for-the-badge)
+![additions](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmazume-tech-club%2F.github%2Fmain%2Fprofile%2Fstats%2Fadditions.json&style=for-the-badge)
+![deletions](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmazume-tech-club%2F.github%2Fmain%2Fprofile%2Fstats%2Fdeletions.json&style=for-the-badge)
+![issues](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmazume-tech-club%2F.github%2Fmain%2Fprofile%2Fstats%2Fissues.json&style=for-the-badge)
+
+</div>
+
+## Languages
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/mazume-tech-club/.github/main/profile/metrics.languages.svg" alt="language breakdown of public repositories" />
+
+</div>
+
+<!--
+## Deployments
+
+<div align="center">
+
+デプロイ対象のリポジトリができたら差し替える:
+
+[![deploy](https://img.shields.io/github/actions/workflow/status/mazume-tech-club/<repo>/deploy.yml?label=deploy&logo=cloudflare&logoColor=white)](https://github.com/mazume-tech-club/<repo>/actions)
+
+</div>
+-->
 
 ## What's here
 
@@ -45,6 +81,7 @@
 | Experiments | Workers / Rust / TypeScript まわりの検証コード |
 | Sessions | 勉強会・LT の資料 |
 | Snippets | 使い回せるテンプレートと設定 |
+| OSS | 自分たちで使う便利ツール・ソフトウェアを公開 |
 
 ## Contribute
 
